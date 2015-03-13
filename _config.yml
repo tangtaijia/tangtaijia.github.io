@@ -9,6 +9,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.tangtaijia.com" # the base hostname & protocol for your site
 github_username:  tangtaijia
 
+# themes needed
+author : 汤太佳
+name : 汤太佳
+github : tangtaijia
+twitter : tangtaijia
+
 # Build settings
 markdown: kramdown
 
