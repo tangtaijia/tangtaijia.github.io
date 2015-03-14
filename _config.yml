@@ -7,6 +7,7 @@ host : 192.168.0.130
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments # 高亮
+mardown: redcarpet
 
 # consts
 consts : 
@@ -22,6 +23,8 @@ author :
   name : 汤太佳
   email : tangtaijia@qq.com
   github : tangtaijia
+  gitosc : taijia
+  coding : taijia
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

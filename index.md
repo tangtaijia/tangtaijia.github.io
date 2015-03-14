@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 汤太佳的博客!
+title: 汤太佳的博客
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
