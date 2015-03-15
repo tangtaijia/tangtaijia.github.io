@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 # hosts
-# host : 192.168.0.130
+host : 192.168.0.130
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments # 高亮
