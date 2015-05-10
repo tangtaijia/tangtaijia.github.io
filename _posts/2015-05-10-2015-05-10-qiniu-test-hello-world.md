@@ -52,7 +52,6 @@ $(document).ready(function() {
 <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_9.jpg" rel="gallery"  class="fancybox" title="">
     <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_9.jpg">
 </a>
-<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg" rel="gallery"  class="fancybox" title="">
+<a style="clear: both;" href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg" rel="gallery"  class="fancybox" title="">
     <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg">
 </a>
-<div style="clear: both;"></div>
