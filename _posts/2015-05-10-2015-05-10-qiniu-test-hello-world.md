@@ -29,7 +29,7 @@ $(document).ready(function() {
 随便翻了几张侄子的照片放到上面，写篇新功课来测试下，果然速度还不错，
 本篇还用到了facybox。
 
-<kbd>These are my nephew's photos. :)</kbd>
+These are my nephew's photos. :)
 <br />
 <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
     <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
@@ -52,6 +52,8 @@ $(document).ready(function() {
 <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_9.jpg" rel="gallery"  class="fancybox" title="">
     <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_9.jpg">
 </a>
-<a style="clear: both;" href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg" rel="gallery"  class="fancybox" title="">
+<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg" rel="gallery"  class="fancybox" title="">
     <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg">
 </a>
+
+<div style="clear: both;display:none;"></div>
