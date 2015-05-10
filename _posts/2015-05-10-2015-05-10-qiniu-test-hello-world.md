@@ -27,53 +27,56 @@ $(document).ready(function() {
 本篇还用到了bootstrap的Grid system 和 facybox。
 
 <kbd>These are my nephew's photos. :)</kbd>
-<div class="container">
-	<div class="row">
-        <div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
-			</a>
-		</div>
-		<div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_4.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_4.jpg">
-			</a>
-		</div>	
-    </div>
-	<div class="row">
-        <div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_5.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_5.jpg">
-			</a>
-		</div>
-		<div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_6.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_6.jpg">
-			</a>
-		</div>	
-    </div>
-	<div class="row">
-        <div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_7.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_7.jpg">
-			</a>
-		</div>
-		<div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_8.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_8.jpg">
-			</a>
-		</div>	
-    </div>
-	<div class="row">
-        <div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_9.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_9.jpg">
-			</a>
-		</div>
-		<div class="col-md-4">
-			<a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg" rel="gallery"  class="fancybox" title="">
-			<img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_10.jpg">
-			</a>
-		</div>	
-    </div>
-</div>
+<table class="table table-striped table-bordered table-hover table-condensed">
+    <!-- 颜色-->
+    <tbody>
+    <tr class="active text-center">
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+    </tr>
+    <tr class="info text-center">
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+    </tr>
+    <tr class="success text-center">
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+    </tr>
+    <tr class="danger text-center">
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+        <td>
+            <a href="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg" rel="gallery"  class="fancybox" title="">
+                <img src="http://7xizaz.com1.z0.glb.clouddn.com/nephew_3.jpg">
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>
