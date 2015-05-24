@@ -17,10 +17,10 @@ consts :
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 汤太佳的博客
+title : Tony Allens Blog
 tagline: Site Tagline
 author :
-  name : 汤太佳
+  name : Tony Allen
   email : tangtaijia@qq.com
   github : tangtaijia
   gitosc : taijia
