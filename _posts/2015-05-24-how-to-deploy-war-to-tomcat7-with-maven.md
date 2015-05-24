@@ -9,9 +9,9 @@ tags: [maven,tomcat]
 
 平时做做项目，无论是本地打包还是远程打包，都会先maven install ，再到target/下找到相应的war包，cp到 $TOMCAT_HOME/webapps/下，再重新启动tomcat。
 
-总觉得这样，每次都要做这种重复工作很无聊，作为一个合格的IT人事，不能在这种事情上浪费时间，于是想到了maven的tomcat插件，[Tomcat Maven Plugin](http://tomcat.apache.org/maven-plugin-2.0/tomcat7-maven-plugin/ "走你少年"),由于本人本地和vps用的是tomcat7,所以就用7做例子，其实tomcat6也差不多，就有一小点区别。
+总觉得这样，每次都要做这种重复工作很无聊，作为一个合格的IT人士，不能在这种事情上浪费时间，于是想到了maven的tomcat插件，[Tomcat Maven Plugin](http://tomcat.apache.org/maven-plugin-2.0/tomcat7-maven-plugin/ "走你少年"),由于本人本地和vps用的是tomcat7,所以就用7做例子，其实tomcat6也差不多，除了一小点区别。
 
-下面我来介绍下，怎么通过Tomcat Maven Plugin 来命令式，一键部署webapp,到本机（ps:远程也行，不过一般不会这么干）。
+下面我来介绍下，怎么通过Tomcat Maven Plugin 来命令式，一键部署webapp,到本机（ps:远程也行，不过一般不会这么干，除了你和扫洞大侠是好朋友）。
 
 ###部署到本地tomcat
 在pom.xml中加上Tomcat Maven Plugin
